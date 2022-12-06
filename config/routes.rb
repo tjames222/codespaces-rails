@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root "hello#index"
+  resources :wiki_posts
+  get 'welcome/index'
+  root "welcome#index"
 end
