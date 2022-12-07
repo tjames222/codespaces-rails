@@ -1,0 +1,27 @@
+$border-radius: 5px;
+html, body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+    h1 {
+        font-size: 2.5em;
+    }
+    .description {
+        background-color: rgba(255, 255, 255, 0.199);
+        padding: 2em;
+        font-size: 1em;
+    }
+    .meta {
+        display: flex;
+        * {
+            background-color: yellow;
+            margin: 5em;
+        }
+    }
+}
